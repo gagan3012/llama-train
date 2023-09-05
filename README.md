@@ -70,3 +70,11 @@ lightning run model \
     --accelerator=tpu \
     pretrain/arllama.py --devices 8 --train_data_dir data/ar_processed_train  --val_data_dir data/ar_processed_val
 ```
+
+#### Convert to HF
+
+```bash
+python scripts/convert_lit_checkpoint.py \
+    --checkpoint_name lit_model_finetuned.pth \
+    --checkpoint_dir checkpoints/llama/
+```
