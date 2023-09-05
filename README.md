@@ -4,6 +4,12 @@
 
 We expect you have CUDA 11.8 installed.
 
+On tpus run
+
+```bash
+./scripts/setup_tpu.sh
+```
+
 #### Install Pytorch Nightly
 
 ```bash
