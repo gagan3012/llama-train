@@ -41,6 +41,15 @@ pydantic
 fastapi
 uvicorn
 gradio
+torch>=2.1.0dev
+lightning  @ git+https://github.com/Lightning-AI/lightning@master
+jsonargparse[signatures]  # CLI
+pandas
+pyarrow
+tokenizers
+sentencepiece
+wandb
+zstd
 EndOfFile
 
 pip install --upgrade -r $HOME/tpu_requirements.txt
